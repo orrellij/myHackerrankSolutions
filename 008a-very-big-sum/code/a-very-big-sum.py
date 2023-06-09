@@ -16,6 +16,10 @@ import sys
 def aVeryBigSum(ar):
     total = 0
 
+    for i in ar:
+        total = i + total
+    return total
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
