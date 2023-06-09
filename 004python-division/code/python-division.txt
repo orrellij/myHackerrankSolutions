@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    a = int(input())  # this is where we assign our variables a and b
+    b = int(input())
+
+print(a//b);         # asking the computer to output to the monitor
+print(a/b);

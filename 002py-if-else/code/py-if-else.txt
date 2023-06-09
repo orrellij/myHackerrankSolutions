@@ -1,0 +1,16 @@
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+if n % 2 == 1:                # if the number is odd, it will print "Weird"
+    print("Weird")
+elif n in range(2,6):         # If the number is even, but in the range 2 to 5 it will print "Not Weird"
+    print("Not Weird")
+elif n in range(6,21):        # If the number is even but in the range 6 to 20 it will print "Weird"
+    print("Weird")
+elif n > 20:                  # If the number is anything else greater than 20 then it will print "Not Weird"
+    print("Not Weird")

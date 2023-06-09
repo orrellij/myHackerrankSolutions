@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    a = int(input())         # these two lines assign a and b to values that are inputed by the user
+    b = int(input())
+
+    addition = a + b;        # this is where I entered all of the arithmetic operators and their operands (a and b)
+    difference = a - b;
+    product = a * b;
+
+    print(addition);        # these lines print all the operated numbers. 
+    print(difference);      # print in python automatically goes to a new line.
+    print(product);
