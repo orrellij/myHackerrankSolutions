@@ -12,7 +12,16 @@ import sys
 # Here's where we define our function that sums the array.
 
 def simpleArraySum(ar):
-    total = 0           # Set the inital sum to be zero. 
+    total = 0           # Set the inital sum to zero.
+
+    # This is the for loop that adds each value one at a time, storing
+    # the value as 'total' each loop.
+    
+    for i in ar:
+        
+        total = total + i
+
+    return total 
 
 # This was already written by Hackerrank, it takes an input for the 
 # number of elements in the array as well the actual values.
