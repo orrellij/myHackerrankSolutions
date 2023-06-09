@@ -11,8 +11,8 @@ import sys
 
 # Here's where we define our function that sums the array.
 
-def simpleArraySum(ar): 
-
+def simpleArraySum(ar):
+    total = 0           # Set the inital sum to be zero. 
 
 # This was already written by Hackerrank, it takes an input for the 
 # number of elements in the array as well the actual values.
