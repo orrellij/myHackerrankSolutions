@@ -9,8 +9,10 @@
 
 def print_full_name(first, last):
     subString1 = 'Hello ' + first
+    subString2 = ' ' + last
+    subString3 = '! You just delved into python.'
     outputString = subString1
-    print(subString1) 
+    print(subString1 + subString2 + subString3) 
 
 
 if __name__ == '__main__':
