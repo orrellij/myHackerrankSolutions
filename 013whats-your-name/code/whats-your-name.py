@@ -8,7 +8,9 @@
 #
 
 def print_full_name(first, last):
-    # Write your code here
+    subString1 = 'Hello ' + first
+    outputString = subString1
+    print(subString1) 
 
 
 if __name__ == '__main__':
