@@ -7,3 +7,4 @@ if __name__ == '__main__':
 # code takes 4 int inputs and creates all possible combinations that 
 # don't equal 'n' the 4th input
 combinations = [(i,j,k) for i in range(x+1) for j in range(y+1) for k in range(z+1) if (i + j + k != n)]
+print(combinations)
