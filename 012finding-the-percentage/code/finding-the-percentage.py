@@ -15,5 +15,10 @@ if __name__ == '__main__':
     query_marks = student_marks[query_name]
     numerator = sum(query_marks)
     denominator = len(query_marks)
+
+    # calculates the average and prints it.
+    query_avg = numerator / denominator
+    final_print = "{:.2f}".format(query_avg)
+    print(final_print)
     
 
