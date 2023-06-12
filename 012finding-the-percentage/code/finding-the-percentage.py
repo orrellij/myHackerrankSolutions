@@ -7,4 +7,13 @@ if __name__ == '__main__':
         student_marks[name] = scores
     query_name = input()
     
+    #####################################################################
+    # obatains the list of marks under the desired name.
+    # Stores the sum as a numerator and the number of
+    # entries in list as the denominator.
+    #####################################################################
+    query_marks = student_marks[query_name]
+    numerator = sum(query_marks)
+    denominator = len(query_marks)
     
+
