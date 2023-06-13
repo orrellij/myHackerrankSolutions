@@ -8,6 +8,11 @@ if __name__ == '__main__':
     # easier
     no_repeats = set(arr)
     
-    
+    # Next I turn that set back into a list so I can use list operations.
+    # I sort the list in increasing order then delete the rightmost entry.
+    new_list = list(no_repeats)
+    ordered = sorted(new_list)
+    del ordered[-1]
+    print(ordered[-1])
            
     
